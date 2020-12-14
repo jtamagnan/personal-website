@@ -15,4 +15,6 @@ Software, Tooling, and Devops Engineer
 <span class="icon-span">
   <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
   <a href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>
+  <a href="/Tamagnan_Jules_resume.pdf"> <img class="icon" src="/cv3.png" /> </a>
+  <a href="mailto:jtamagnan@gmail.com"> <img class="icon" src="/email3.png" /> </a>
 </span>
