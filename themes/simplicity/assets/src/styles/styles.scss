@@ -6,3 +6,12 @@
 @import "_components/footer";
 @import "_components/homepage";
 @import "_components/navbar";
+
+.icon-span {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    height: 30px;
+    margin: 5px;
+}
