@@ -4,10 +4,12 @@ language: en
 slug: /
 ---
 
-# Simplicity, Hugo theme.
+# Jules Tamagnan
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- Software Engineer -->
 
-[Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/)
+<!-- [Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/) -->
 
-[Photos](/photos/) &bull; [Projects](/projects/)
+<!-- [Photos](/photos/) &bull; [Projects](/projects/) -->
+
+[Posts](/posts/) &bull; [About](/about)
