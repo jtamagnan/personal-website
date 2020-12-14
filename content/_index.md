@@ -10,9 +10,7 @@ Software, Tooling, and Devops Engineer
 
 <!-- [Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/) -->
 
-<!-- [Photos](/photos/) &bull; [Projects](/projects/) -->
-
-[Posts](/posts/) &bull; [Photos](/photos/) &bull; [About](/about)
+<!-- [Posts](/posts/) &bull; [Photos](/photos/) &bull; [About](/about) -->
 
 <span class="icon-span">
   <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
