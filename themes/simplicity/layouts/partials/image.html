@@ -57,7 +57,6 @@
 
 <figure{{ if eq $full "true" }} class="full"{{ end }}>
   {{ if eq $lightbox "true" }}
-  <img src="{{ $fileName }}">
   <a href="{{ $original.RelPermalink }}"{{ if $title }} title="{{ $title }}"{{ end }}>
         <img
           data-src="{{ $original.RelPermalink }}"
