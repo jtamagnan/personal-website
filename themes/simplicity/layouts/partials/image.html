@@ -2,7 +2,7 @@
 {{ $title := "" }}
 {{ $full :=  "falase" }}
 {{ $lightbox := "true" }}
-{{ $resize :=  "true" }}
+{{ $resize :=  "false" }}
 {{ $round := 0 }}
 
 {{ $fileName := index (last 1 (split $src "/")) 0 }}
@@ -10,7 +10,7 @@
 {{ $section := replace $src (printf "/%s" $fileName) "" }}
 
 {{ with .site.GetPage "section" $section }}
-  {{ $original := .Resources.GetMatch (printf "%s*" ($imageName)) }}
+  {{ $original := .Resources.GetMatch (printf "%s*" ($fileName)) }}
 
   {{ if eq $resize "true" }}
     {{ if gt $original.Width 320 }}
