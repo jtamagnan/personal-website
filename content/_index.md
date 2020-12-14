@@ -12,4 +12,4 @@ slug: /
 
 <!-- [Photos](/photos/) &bull; [Projects](/projects/) -->
 
-[Posts](/posts/) &bull; [About](/about)
+[Posts](/posts/) &bull; [Photos](/photos/) &bull; [About](/about)
