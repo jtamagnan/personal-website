@@ -21,6 +21,20 @@ body {
       &:hover, &:active, &:visited {
         text-decoration: none;
       }
+
+      .homepage-avatar {
+	  border-radius: 50%;
+	  position: relative;
+	  top: .5rem;
+	  right: .2rem;
+      }
+
+      span {
+	  top: 50%;
+	  position: absolute;
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+      }
     }
 
     &.animated {
