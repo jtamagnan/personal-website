@@ -9,6 +9,7 @@
   </small>
 </h2>
 <hr>
+{{ .Content }}
 {{ range (where .Data.Pages "Type" "posts").GroupByDate "2006" }}
 <h3 id="{{ .Key }}">
   {{ .Key }}
