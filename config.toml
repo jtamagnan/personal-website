@@ -37,8 +37,8 @@ title = "Jules Tamagnan"
   taxonomyTerm = ["HTML"]
 [params]
   description = "A blog about everything."
-  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
-  displayPostLanguage = true
+  licence = false
+  displayPostLanguage = false
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
 [pygmentsOptions]
