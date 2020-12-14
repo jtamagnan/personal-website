@@ -23,7 +23,7 @@ title = "Jules Tamagnan"
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 [params]
-  description = "A blog about everything."
+  description = "A bit about Jules."
   licence = false
   displayPostLanguage = false
 [permalinks]
