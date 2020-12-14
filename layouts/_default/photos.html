@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ .Content}}
+
+{{ range .Resources.Match "*.jpg" }}
+
+{{ partial "image.html" (dict "context" . "src" .RelPermalink "site" $.Site) }}
+
+{{ end }}
+
+{{ end }}
+
