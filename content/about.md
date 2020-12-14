@@ -8,4 +8,4 @@ slug: about
 
 ---
 
-I'm a software engineer
+I'm a software engineer currently residing in San Francisco

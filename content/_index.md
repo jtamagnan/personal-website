@@ -6,7 +6,7 @@ slug: /
 
 # Jules Tamagnan
 
-<!-- Software Engineer -->
+Software, Tooling, and Devops Engineer
 
 <!-- [Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/) -->
 
