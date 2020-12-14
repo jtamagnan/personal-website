@@ -11,9 +11,7 @@ This theme uses [LazyLoad](https://github.com/verlok/lazyload) to speed up your 
 #### Clean typography
 It should be a pleasure to read your blog, right?
 #### Additional shortcodes
-Shortcodes for Google Adsense, images, Speaker Deck, Video, Vimeo, Youtube.
-#### Google Adsense
-You can use the shortcode to insert Adsense Ad wherever you want.
+Shortcodes for Google images, Speaker Deck, Video, Vimeo, Youtube.
 #### Google Analytics
 Just add a Google Analytics code to turn it on.
 #### Lightbox
@@ -127,10 +125,6 @@ This theme contains default favicon with `S` letter. If you want to change it, c
 ## Shortcodes
 
 This theme includes additional shortcodes.
-
-### Adsense
-
-Add Adsense configuration and use `{{< adsense >}}` in your post to display an ad.
 
 ### Image
 
