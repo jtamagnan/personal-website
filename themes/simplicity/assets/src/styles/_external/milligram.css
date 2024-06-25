@@ -173,8 +173,6 @@ code {
   background: #f4f5f6;
   border-radius: .4rem;
   font-size: 86%;
-  margin: 0 .2rem;
-  padding: .2rem .5rem;
   white-space: nowrap;
 }
 
@@ -597,4 +595,39 @@ img {
   float: right;
 }
 
-/*# sourceMappingURL=milligram.css.map */
+/* /\* Applies to all. *\/ */
+.highlight div,
+.highlight > pre {
+  overflow-x: auto;
+}
+
+/* /\* Applies when using an external style sheet. *\/ */
+/* /\* https://github.com/alecthomas/chroma/issues/722 *\/ */
+.hl:not(.line) {
+    display: flex;
+    max-width: min-content;
+}
+td:nth-child(odd) {
+    max-width: min-content;
+    display: flex;
+}
+td:nth-child(odd) > pre {
+    max-width: min-content;
+    display: block;
+}
+td:nth-child(odd) > pre > code {
+    max-width: min-content;
+}
+
+/* Applies when using an external style sheet. */
+/* https://github.com/alecthomas/chroma/issues/722 */
+.highlight .chroma .lntable .lnt,
+.highlight .chroma .lntable .hl {
+  display: flex;
+}
+
+/* Applies when using an external style sheet. */
+/* https://github.com/alecthomas/chroma/issues/722 */
+.highlight .chroma .lntable .lntd + .lntd {
+  width: 100%;
+}
