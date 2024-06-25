@@ -6,11 +6,7 @@ slug: /
 
 # Jules Tamagnan
 
-Software, Tooling, and Devops Engineer
-
-<!-- [Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/) -->
-
-<!-- [Posts](/posts/) &bull; [Photos](/photos/) &bull; [About](/about) -->
+Software, Tooling, and DevOps Engineer
 
 <span class="icon-span">
   <a title="Posts" href="/posts"> <img class="icon" src="/posts3.png" /> </a>
