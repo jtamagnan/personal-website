@@ -5,8 +5,6 @@
   <meta name="author" content="{{ .Site.Author.name }}">
   <meta name="description" content="{{ .Site.Params.description }}">
 
-  {{ .Hugo.Generator }}
-
   <!-- CSS -->
   {{ $normalize := resources.Get "/src/styles/_external/normalize.css" }}
   {{ $milligram := resources.Get "/src/styles/_external/milligram.css" }}
@@ -27,8 +25,8 @@
   <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
 
   <!-- RSS -->
-  <link href="{{ $.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{- .Site.Title -}}" />
-  <link href="{{ $.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{- .Site.Title -}}" />
+  <link href="{{ .Site.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{- .Site.Title -}}" />
+  <link href="{{ .Site.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{- .Site.Title -}}" />
 
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/schema.html" . }}

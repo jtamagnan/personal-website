@@ -21,7 +21,6 @@ title = "Jules Tamagnan"
   page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
 [params]
   description = "A bit about Jules."
   licence = false

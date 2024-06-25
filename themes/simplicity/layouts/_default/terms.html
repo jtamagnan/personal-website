@@ -4,7 +4,7 @@
   <ol>
     {{ range .Data.Terms.Alphabetical }}
       <li>
-        <a href="{{ $.LanguagePrefix }}/{{ $.Data.Plural }}/{{ .Term | urlize }}">
+        <a href="{{ .Site.LanguagePrefix }}/{{ .Site.Data.Plural }}/{{ .Term | urlize }}">
           {{ .Term }}
         </a>
         <sup>

@@ -1,5 +1,5 @@
 <nav>
-  <a href="{{ $.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
+  <a href="{{ .Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
     <img
       class="homepage-avatar"
       src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=40&d=identicon"

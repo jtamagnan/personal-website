@@ -5,7 +5,7 @@
   {{ i18n "postsAbout" }} {{ .Title }}
   {{ end }}
   <small>
-    - <a href="{{ .RSSLink | relURL }}" class="rss" title="RSS">RSS</a>
+    - <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" class="rss" title="RSS">RSS</a>
   </small>
 </h2>
 <hr>
