@@ -26,7 +26,7 @@ title = "Jules Tamagnan"
   licence = false
   displayPostLanguage = false
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  posts = "/posts/:slug/"
 [pygmentsOptions]
   linenos = false
 [markup.goldmark.renderer]
