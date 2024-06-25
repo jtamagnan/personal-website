@@ -180,14 +180,12 @@ code {
 
 pre {
   background: #f4f5f6;
-  border-left: 0.3rem solid #9b4dca;
   overflow-y: hidden;
 }
 
 pre > code {
   border-radius: 0;
   display: block;
-  padding: 1rem 1.5rem;
   white-space: pre;
 }
 
