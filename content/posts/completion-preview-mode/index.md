@@ -8,11 +8,10 @@ toc: true
 
 Over the last few years there has been an ever greater push towards
 making smaller Emacs packages that are more tightly integrated with
-the core Emacs ecosystem and work with the grain instead of against
-it. In large part this is due to the massive ongoing efforts of the
-Emacs maintainers and the community whose enhancements make these
-packages easier to write and integrate without needing to reinvent the
-wheel.
+the core Emacs ecosystem. In large part this is due to the massive
+ongoing efforts of the Emacs maintainers and the community whose
+enhancements make these packages easier to write and integrate without
+needing to reinvent the wheel.
 
 Some of the changes that have happened include:
  - The creation of ['vertico'](https://github.com/minad/vertico),
@@ -27,19 +26,18 @@ Some of the changes that have happened include:
  - The creation of ['corfu'](https://github.com/minad/corfu) and
    ['cape'](https://github.com/minad/cape) as a replacement for
    ['company'](https://company-mode.github.io/).
- - The creation of the builtin `project` package as a replacement for
+ - The creation of the builtin `project.el` package as a replacement for
    ['projectile'](https://github.com/bbatsov/projectile).
 
 Where it makes sense I've made some small efforts to migrate to these
-newer leaner packages suites.
+newer leaner, packages suites.
 
-Recently I made the move from the
+So far I've completed my move from the
 ['ivy'](https://github.com/abo-abo/swiper) suite to the
-['vertico'](https://github.com/minad/vertico) suite. This was one of
-the largest Emacs changes I've made in recent times. Overall it went
-well with relatively little friction. My biggest issue however was
-when trying to replace my usage of `swiper` with `consult-line`. Even
-with the some helpful
+['vertico'](https://github.com/minad/vertico) suite. This was
+relatively easy but was certainly not painless. My largest issue with
+this migration was when trying to replace my usage of `swiper` with
+`consult-line`. Even with the some helpful
 [patches](https://www.reddit.com/r/emacs/comments/14aglvm/highlight_multiple_lines_in_consultline/)
 I fell short of a complete migration. Thankfully not everything needs
 to be black or white, I can use
@@ -49,20 +47,20 @@ the time.
 
 ## corfu, cape, and completion-preview-mode
 
-Given the friction I experienced with my migration from the
-['ivy'](https://github.com/abo-abo/swiper) suite to the
-['vertico'](https://github.com/minad/vertico) suite I was a bit
-apprehensive about tackling some of the other migrations. However here
-I stand now, without a job and with more free time than ever, thinking
-about my Emacs configuration.
+Given the friction I experienced with my migration to the
+['vertico'](https://github.com/minad/vertico) suite I've been a bit
+apprehensive about tackling the rest of these migrations . However
+here I stand now, without a job and with more free time than ever,
+thinking about my Emacs configuration.
 
-I decided to tackle a migration from the excellent
+Sure enough I decided to tackle a migration from the excellent
 ['company'](https://company-mode.github.io/) package to a combination
 of ['corfu'](https://github.com/minad/corfu), and
 ['cape'](https://github.com/minad/cape). Note that I wasn't having any
-issues with ['company'](https://company-mode.github.io/) but wanted to
-see what new ideas had appeared in the in-buffer completion ecosystem
-since I started using ['company'](https://company-mode.github.io/).
+issues with ['company'](https://company-mode.github.io/); I just
+wanted to see what new ideas had appeared in the in-buffer completion
+ecosystem since had I started using
+['company'](https://company-mode.github.io/).
 
 When I first started using Emacs 10 years ago
 ['auto-complete'](https://github.com/auto-complete/auto-complete) was
@@ -190,11 +188,11 @@ added in Emacs 30.1 by Eshel Yaron which gives me just this.
 
 #### completion-preview-mode enhancements
 
-One thing I'd like to add is some new additions to
-`completion-preview`. Having used `github-copilot` a bit at my last
-job I am used to partially completing the "top" candidate with
-`M-f`. With careful code review and help from Eshel I've added two new
-commands to `completion-preview`: `completion-preview-insert-word`
+One last thing I'd like to touch on are some of the new additions to
+`completion-preview`. Since using other packages I grew used to
+partially completing the "top" candidate with `M-f`. With careful code
+review and help from Eshel I've added two new commands to
+`completion-preview`: `completion-preview-insert-word`
 `completion-preview-insert-sexp`. If you use the latest version of
 Emacs `master` you should have access to these functions as well. I
 hope they help.
@@ -203,6 +201,8 @@ hope they help.
 
 Maybe going forward I'll migrate from
 ['projectile'](https://github.com/bbatsov/projectile) to the builtin
-`project` or from `straight` to `elpaca` but as they say "If it ain't
-broke, don't fix it, unless it sounds like a good learning
+`project.el` or from
+['straight'](https://github.com/radian-software/straight.el) to
+['elpaca'](https://github.com/progfolio/elpaca) but as they say "If it
+ain't broke, don't fix it, unless it sounds like a good learning
 experience".
