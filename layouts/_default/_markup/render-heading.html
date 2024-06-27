@@ -1,6 +1,6 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
   <a class="heading-anchor" href="#{{ .Anchor | safeURL }}">
     {{ strings.Repeat (add .Level -1) "#" }}
+    <span class="content">{{ .Text | safeHTML }}</span>
   </a>
-  {{ .Text | safeHTML }}
 </h{{ .Level }}>

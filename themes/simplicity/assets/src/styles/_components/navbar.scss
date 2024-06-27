@@ -142,24 +142,25 @@ body {
   font-size: 1.2em;
 
   ul {
-    list-style-type: none;
-    display: list-item;
     padding-left: 0;
+    padding-left: 0.9rem;
+    font-size: 95%;
+    list-style: disk;
+  }
 
-    &:not(:first-child) {
-      display: list-item;
-      padding-left: 0.9rem;
-      font-size: 95%;
-    }
+  li::marker {
+      content: "# ";
+      color: $links-color;
+  }
 
-    ul {
-      list-style-type: disc;
-    }
+  li li::marker {
+      content: "## ";
+      color: $links-color;
   }
 
   li {
-    display: inherit;
     color: $navbar-text-color;
+
 
     a {
       color: inherit;

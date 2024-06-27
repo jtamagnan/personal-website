@@ -25,6 +25,10 @@ body {
     &:hover, &:active, &:visited {
       text-decoration: underline;
     }
+
+    .content {
+      color: $color-base-text;
+    }
   }
 
   .top-nav {
