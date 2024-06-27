@@ -2,6 +2,7 @@
 title: À la Mode - corfu, cape, and completion-preview
 date: Thu Jun 27 11:28:20 2024
 toc: true
+tags: ["emacs"]
 ---
 
 ## Foreword
