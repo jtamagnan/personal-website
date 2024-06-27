@@ -20,9 +20,6 @@ script.
 Displays progress bar on the top of the page when user scrolls the
 page.
 
-## Disqus
-Just add a Disqus shortname to enable comments.
-
 ## Shortcodes
 
 This theme includes additional shortcodes.
