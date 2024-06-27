@@ -1,5 +1,5 @@
 body {
-  nav {
+  .top-nav {
     align-items: center;
     background-color: #f4f5f6;
     color: $navbar-text-color;
@@ -130,5 +130,46 @@ body {
 
   100% {
     transform: translateY(0);
+  }
+}
+
+#TableOfContents {
+  display: flex;
+  position: absolute;
+  background: transparent;
+  top: $navbar-height;
+  right: 3rem;
+  font-size: 1.2em;
+
+  ul {
+    list-style-type: none;
+    display: list-item;
+    padding-left: 0;
+
+    &:not(:first-child) {
+      display: list-item;
+      padding-left: 0.9rem;
+      font-size: 95%;
+    }
+
+    ul {
+      list-style-type: disc;
+    }
+  }
+
+  li {
+    display: inherit;
+    color: $navbar-text-color;
+
+    a {
+      color: inherit;
+      text-align: left;
+      padding: 0;
+
+      &:hover {
+        color: $links-color;
+        background-color: transparent;
+      }
+    }
   }
 }

@@ -3,7 +3,10 @@
   {{ partial "head.html" . }}
   <body>
     {{ if not .IsHome }}
-      {{ partial "navbar.html" . }}
+    {{ partial "navbar.html" . }}
+    {{ end }}
+    {{ if .Params.toc }}
+    {{ .Page.TableOfContents }}
     {{ end }}
     <main class="container{{ if .IsHome }} home{{ end }}">
       {{ block "main" . -}}{{- end }}

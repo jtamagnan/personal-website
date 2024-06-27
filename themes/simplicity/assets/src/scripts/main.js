@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   baguetteBox.run('main', {})
 
   // Hide header
-  const navbar = document.querySelector('nav')
+  const navbar = document.querySelector('.top-nav')
   if (navbar) {
     const headroom = new Headroom(navbar, {
       'offset': 205,
