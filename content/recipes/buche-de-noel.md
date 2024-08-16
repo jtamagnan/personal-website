@@ -1,7 +1,6 @@
 ---
 title: Buche de Noel
 date: Fri Aug 16 07:40:32 2024
-tags: ["cooking"]
 ---
 Ingredients
 Sponge:
