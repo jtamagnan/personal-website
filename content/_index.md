@@ -14,4 +14,5 @@ Software, Tooling, and DevOps Engineer
   <a title="GitHub" href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>
   <a title="Resume" href="/Tamagnan_Jules_resume.pdf"> <img class="icon" src="/cv2.png" /> </a>
   <a title="Email" href="mailto:jtamagnan@gmail.com"> <img class="icon" src="/email.png" /> </a>
+  <a title="Recipes" href="/recipes"> <img class="icon" src="/recipe.png" /> </a>
 </span>

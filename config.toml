@@ -27,6 +27,7 @@ title = "Jules Tamagnan"
   displayPostLanguage = false
 [permalinks]
   posts = "/posts/:slug/"
+  recipes = "/recipes/:slug/"
 [pygmentsOptions]
   linenos = false
 [markup.goldmark.renderer]
