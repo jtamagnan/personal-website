@@ -15,8 +15,8 @@
   <li>
     <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
     <a href="{{ .RelPermalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
-    -
     {{ if .Params.tags }}
+    -
     {{ range $index, $tag := .Params.tags }}
     <a href="{{ $.Site.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}">
       <span>#</span>{{- . -}}
