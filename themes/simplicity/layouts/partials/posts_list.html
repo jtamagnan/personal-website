@@ -1,9 +1,5 @@
 <h2>
-  {{ if eq .Kind "section" }}
-  {{ i18n "postsList" . }}
-  {{ else }}
-  {{ i18n "postsAbout" }} {{ .Title }}
-  {{ end }}
+  {{ .Title }}
   <small>
     - <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" class="rss" title="RSS">RSS</a>
   </small>
