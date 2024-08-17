@@ -19,20 +19,20 @@
     {{- .Content -}}
   </section>
   <footer>
+    {{ if .Params.tags }}
     <hr>
     <div class="meta">
       <p class="tags">
-        {{ if .Params.tags }}
         {{ range $index, $tag := .Params.tags }}
         <a href="{{ $.Site.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}">
           <span>#</span>{{- . -}}
         </a>
         {{ end }}
-        {{ end }}
       </p>
     </div>
-    <hr>
+    {{ end }}
 
+    <hr>
     <div id="cusdis_thread"
          data-host="https://cusdis.com"
          data-app-id="a73d0916-b1fc-4744-8cc5-90207e186459"
