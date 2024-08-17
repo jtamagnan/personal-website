@@ -1,41 +1,73 @@
 ---
-title: Buche de Noel
+title: Bûche De Noël
 date: Fri Aug 16 07:40:32 2024
+toc: true
 ---
-Ingredients
-Sponge:
-4 eggs
-1/2 cup flour
-1/2 cup sugar
-Splash vanilla
 
-Ganache:
-12 oz chocolate
-4 cups cream
+{{< scaler >}}
 
-Syrups:
-Orange juice
-Instant coffee
-1 cup sugar
+## Sponge:
+### Ingredients:
+{{% ingredients %}}
+{{% scalee 4 %}} eggs
+{{% scalee 0.5 %}} cup flour
+{{% scalee 0.5 %}} cup sugar
+{{% scalee 1 %}} Splash vanilla
+{{% /ingredients %}}
 
-Recipe
-Sponge:
-2 eggs + 2 yolks beat until light & fluffy with 3/8 cup sugar added in slowly
-Beat remaining 2 egg whites with remaining sugar until stuff peaks
-Fold flour into egg yolk mixture
-Fold egg whites in
-Bake at 410F for 7 mins
-Turn out onto moist towel
-Apply syrup if desired
-Let cool completely
+### Recipe:
+ 1. {{% scalee 2 %}} eggs + {{% scalee 2 %}} yolks beat until light & fluffy with {{% scalee 0.375 %}} cup sugar
+    added in slowly
+ 2. Beat remaining {{% scalee 2 %}} egg whites with remaining sugar until stuff peaks
+ 3. Fold flour into egg yolk mixture
+ 4. Fold egg whites in
+ 5. Bake at 410F for 7 mins
+ 6. Turn out onto moist towel
+ 7. Apply syrup if desired
+ 8. Let cool completely
 
-Ganache:
-Make ganache with 1 1/2 cups cream & 12 oz chocolate
-Let ganache cool (on the counter not fridge) until it won't melt the whipped cream but not so cold that it's solid
-Make whipped cream with 2 1/2 cups cream & 1 tablespoon sugar
-Fold the whipped cream into the ganache
+---
 
-Syrups:
-4 cups orange juice & 1/2 cup sugar (could maybe do less sugar) simmer for 30 mins, more or less continuously stirring
+## Ganache:
+### Ingredients:
+{{% ingredients %}}
+{{% scalee 12 %}} oz chocolate
+{{% scalee 4 %}} cups cream
+{{% /ingredients %}}
 
-4 cups water + 1/2 cup sugar & appropriate amt instant coffee, simmer for 40 mins, stirring occasionally so doesn't burn
+### Recipe:
+ 1. Make ganache with {{% scalee 1.5 %}} cups cream and {{% scalee 12 %}}
+    oz chocolate
+ 2. Let ganache cool (on the counter not fridge) until it won't melt
+    the whipped cream but not so cold that it's solid
+ 3. Make whipped cream with {{% scalee 2.5 %}} cups cream and {{% scalee 1 %}}
+    tablespoon sugar
+ 4. Fold the whipped cream into the ganache
+
+---
+
+## Orange Syrup:
+### Ingredients:
+{{% ingredients %}}
+{{% scalee 4 %}} Cups of orange juice
+{{% scalee 0.5 %}} Cups of sugar
+{{% /ingredients %}}
+
+### Recipe:
+ 1. {{% scalee 4 %}} cups orange juice & {{% scalee 0.5 %}} cup sugar
+    (could maybe do less sugar) simmer for 30 mins, more or less
+    continuously stirring
+
+---
+
+## Coffee Syrup:
+### Ingredients:
+{{% ingredients %}}
+Enough instant coffee
+{{% scalee 0.5 %}} cup sugar
+{{% /ingredients %}}
+
+### Recipe:
+ 1. {{% scalee 4 %}} cups water + {{% scalee 0.5 %}} cup sugar &
+    appropriate amount of instant coffee, simmer for 40 mins, stirring
+    occasionally so doesn't burn

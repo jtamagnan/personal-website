@@ -193,6 +193,11 @@ hr {
   margin: 3.0rem 0;
 }
 
+.oneline {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
 input[type='email'],
 input[type='number'],
 input[type='password'],
@@ -212,7 +217,8 @@ select {
   box-sizing: inherit;
   height: 3.8rem;
   padding: .6rem 1.0rem;
-  width: 100%;
+  display: flex;
+  flex-grow: 1;
 }
 
 input[type='email']:focus,
@@ -243,10 +249,9 @@ textarea {
 
 label,
 legend {
-  display: block;
   font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: .5rem;
+  align-self: center;
 }
 
 fieldset {
@@ -482,13 +487,6 @@ li {
   margin-bottom: 1.0rem;
 }
 
-fieldset,
-input,
-select,
-textarea {
-  margin-bottom: 1.5rem;
-}
-
 blockquote,
 dl,
 figure,
@@ -607,15 +605,15 @@ img {
     display: flex;
     max-width: min-content;
 }
-td:nth-child(odd) {
+td.lntd:nth-child(odd) {
     max-width: min-content;
     display: flex;
 }
-td:nth-child(odd) > pre {
+td.lntd:nth-child(odd) > pre {
     max-width: min-content;
     display: block;
 }
-td:nth-child(odd) > pre > code {
+td.lntd:nth-child(odd) > pre > code {
     max-width: min-content;
 }
 

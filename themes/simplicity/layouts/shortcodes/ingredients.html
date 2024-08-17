@@ -1,0 +1,9 @@
+<ul class="ingredients">
+  {{ range split .Inner "\n" }}
+  {{ if strings.ContainsNonSpace .}}
+  <li class="ingredient">
+    {{ safeHTML . }}
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>

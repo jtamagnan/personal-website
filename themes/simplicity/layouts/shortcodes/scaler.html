@@ -1,0 +1,60 @@
+<script>
+ let VALUE_MAP = {
+   0: "0",
+   0.125: "1/8",
+   0.250: "1/4",
+   0.375: "3/8",
+   0.500: "1/2",
+   0.625: "5/8",
+   0.750: "3/4",
+   0.875: "7/8",
+   1: "1",
+ }
+
+ function nearest(arr, val) {
+   return arr.reduce((p, n) =>
+     (Math.abs(p) > Math.abs(n - val) ? n - val : p), Infinity
+   ) + val
+ }
+
+ function scale() {
+   let elems = [...document.querySelectorAll('.scalee')];
+   let mult = document.querySelector('#scale-input').value;
+   elems.forEach( elem => {
+     let defaultValue = elem.getAttribute("data-default");
+     let calculatedValue = defaultValue * mult;
+     let front = Math.floor(calculatedValue);
+     let back = calculatedValue - front;
+     let calculateArr = []
+     if (front) {
+       calculateArr.push(front);
+     }
+     if (back) {
+       console.log(VALUE_MAP[nearest(Object.keys(VALUE_MAP), back)])
+       calculateArr.push(VALUE_MAP[nearest(Object.keys(VALUE_MAP), back)]);
+     }
+     elem.innerHTML = calculateArr.join(" ");
+   });
+ }
+
+ document.addEventListener("DOMContentLoaded", function(){
+   scale();
+ });
+</script>
+
+<div class="oneline">
+  <label for="scale-input">Scale:</label>
+  <input
+    class="label-inline"
+    id="scale-input"
+    type="number"
+    value="1"
+    min="1"
+    onchange   = "scale();"
+    onkeypress = "this.onchange();"
+    onpaste    = "this.onchange();"
+    oninput    = "this.onchange();"
+  />
+</div>
+
+<br>
