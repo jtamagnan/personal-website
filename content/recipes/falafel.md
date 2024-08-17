@@ -6,7 +6,7 @@ toc: true
 
 {{< scaler >}}
 
-Makes 30 - 34 falafel balls
+Makes {{% scalee 30 %}} - {{% scalee 34 %}} falafel balls
 
 Based off of https://toriavey.com/falafel/
 
