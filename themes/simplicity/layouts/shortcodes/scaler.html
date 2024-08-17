@@ -22,7 +22,7 @@
    let mult = document.querySelector('#scale-input').value;
    elems.forEach( elem => {
      let defaultValue = elem.getAttribute("data-default");
-     let calculatedValue = defaultValue * mult;
+     let calculatedValue = defaultValue * (mult || 1);
      let front = Math.floor(calculatedValue);
      let back = calculatedValue - front;
      let calculateArr = []
