@@ -2,7 +2,7 @@
   {{ range split .Inner "\n" }}
   {{ if strings.ContainsNonSpace .}}
   <li class="ingredient">
-    {{ safeHTML . }}
+    {{ . | markdownify}}
   </li>
   {{ end }}
   {{ end }}
