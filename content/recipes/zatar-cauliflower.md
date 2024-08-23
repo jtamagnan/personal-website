@@ -4,11 +4,9 @@ date: Sat Aug 17 12:21:11 2024
 toc: true
 ---
 ## Ingredients:
-{{% ingredients %}}
-Extra virgin olive oil
-Zaatar
-Cauliflower
-{{% /ingredients %}}
+* Extra virgin olive oil
+* Zaatar
+* Cauliflower
 
 ## Recipe:
 

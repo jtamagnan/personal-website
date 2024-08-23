@@ -6,19 +6,17 @@ toc: true
 {{< scaler >}}
 
 ## Ingredients:
-{{% ingredients %}}
-{{% scalee 0.75 %}} pounds ground lamb
-{{% scalee 0.75 %}} pounds ground beef
-{{% scalee 0.5 %}} cup breadcrumbs
-{{% scalee 2 %}} teaspoons kosher salt
-{{% scalee 0.5 %}} teaspoon black pepper
-{{% scalee 0.5 %}} cup finely diced red onion
-{{% scalee 1 %}} teaspoon toasted ground cumin
-{{% scalee 1 %}} teaspoon toasted ground coriander
-{{% scalee 0.25 %}} teaspoon cinnamon
-{{% scalee 1 %}} Pinch of cayenne
-{{% scalee 2 %}} eggs
-{{% /ingredients %}}
+* {{% scalee 0.75 %}} pounds ground lamb
+* {{% scalee 0.75 %}} pounds ground beef
+* {{% scalee 0.5 %}} cup breadcrumbs
+* {{% scalee 2 %}} teaspoons kosher salt
+* {{% scalee 0.5 %}} teaspoon black pepper
+* {{% scalee 0.5 %}} cup finely diced red onion
+* {{% scalee 1 %}} teaspoon toasted ground cumin
+* {{% scalee 1 %}} teaspoon toasted ground coriander
+* {{% scalee 0.25 %}} teaspoon cinnamon
+* {{% scalee 1 %}} Pinch of cayenne
+* {{% scalee 2 %}} eggs
 
 ## Recipe:
 1. **One day ahead**: In a large bowl, use your hands to combine lamb,

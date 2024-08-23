@@ -3,7 +3,6 @@ title: Falafel
 date: Fri Aug 16 20:36:52 2024
 toc: true
 ---
-
 {{< scaler >}}
 
 Makes {{% scalee 30 %}} - {{% scalee 34 %}} falafel balls
@@ -11,22 +10,27 @@ Makes {{% scalee 30 %}} - {{% scalee 34 %}} falafel balls
 Based off of https://toriavey.com/falafel/
 
 ## Ingredients:
-{{% ingredients %}}
-{{% scalee 1 %}} lb dry chickpeas (also known as garbanzo beans) - you must start with dry, do NOT substitute canned, they will not work!
-{{% scalee 0.5 %}} tsp baking soda
-{{% scalee 1 %}} small onion, roughly chopped
-{{% scalee 0.25 %}} cup chopped fresh parsley
-{{% scalee 3 %}}-{{% scalee 5 %}} cloves garlic (I prefer roasted garlic cloves)
-{{% scalee 1.5 %}} tbsp flour or chickpea flour
-{{% scalee 1.75 %}} tsp salt
-{{% scalee 2 %}} tsp cumin
-{{% scalee 1 %}} tsp ground coriander
-{{% scalee 0.25 %}} tsp black pepper
-{{% scalee 0.25 %}} tsp cayenne pepper
-{{% scalee 1 %}} Pinch of ground cardamom
-{{% scalee 1 %}} tsp baking powder (optional - makes the falafel more fluffy)
-Enough vegetable oil for frying - grapeseed, sunflower, avocado, canola, and peanut oils all work well
-{{% /ingredients %}}
+* {{% scalee 1 %}} lb **DRY** chickpeas - you must start with dry, do
+  NOT substitute canned, they will not work!
+* {{% scalee 0.5 %}} tsp baking soda
+* {{% scalee 1 %}} small onion, roughly chopped
+* {{% scalee 0.25 %}} cup chopped fresh parsley
+* {{% scalee 3 %}}-{{% scalee 5 %}} cloves garlic
+* {{% scalee 1.5 %}} tbsp flour or chickpea flour
+* {{% scalee 1.75 %}} tsp salt
+* {{% scalee 2 %}} tsp cumin
+* {{% scalee 1 %}} tsp ground coriander
+* {{% scalee 0.25 %}} tsp black pepper
+* {{% scalee 0.25 %}} tsp cayenne pepper
+* {{% scalee 1 %}} Pinch of ground cardamom
+* {{% scalee 1 %}} tsp baking powder (optional - makes the falafel
+  more fluffy)
+* Enough vegetable oil for frying - grapeseed, sunflower, avocado,
+  canola, and peanut oils all work well
+
+**Herb Falafel Variation (Green Falafel):** Add {{% scalee 0.5 %}}
+cup additional chopped green parsley, or cilantro, or a mixture of
+the two prior to blending.
 
 ## Recipe:
 
@@ -59,7 +63,7 @@ Enough vegetable oil for frying - grapeseed, sunflower, avocado, canola, and pea
    throughout. Remove any large chickpea chunks that the processor
    missed.
 
-   Cover the bowl with plastic wrap and refrigerate for 1-2 hours.
+   Cover the bowl and refrigerate for 1-2 hours.
 
    Fill a skillet with oil to a depth of 1 ½ inches. Use cooking oil
    with a high smoke point (oil suggestions can be found in the
@@ -70,9 +74,7 @@ Enough vegetable oil for frying - grapeseed, sunflower, avocado, canola, and pea
    a feel for when the oil temperature is "right."
 
    Meanwhile, form falafel mixture into round balls or slider-shaped
-   patties using wet hands or a falafel scoop. I usually use about 2
-   tbsp of mixture per falafel. You can make them smaller or larger
-   depending on your personal preference. The balls will stick
+   patties using wet hands or a falafel scoop. I usually make the balls a bit smaller than golf ball size. The balls will stick
    together loosely at first, but will bind nicely once they begin to
    fry.
 
@@ -101,11 +103,3 @@ Enough vegetable oil for frying - grapeseed, sunflower, avocado, canola, and pea
 7. Serve the falafels fresh and hot; they go best with a plate of
    hummus and topped with creamy tahini sauce. You can also stuff them
    into a pita.
-
-8. **Sesame Falafel Variation:** After forming the balls or patties,
-   dip them in sesame seeds prior to frying. This will make the
-   falafel coating crunchier and give it a slightly nutty flavor.
-
-9. **Herb Falafel Variation (Green Falafel):** Add {{% scalee 0.5 %}}
-   cup additional chopped green parsley, or cilantro, or a mixture of
-   the two prior to blending.

@@ -1,9 +1,13 @@
-<ul class="ingredients">
-  {{ range split .Inner "\n" }}
-  {{ if strings.ContainsNonSpace .}}
-  <li class="ingredient">
-    {{ . | markdownify}}
-  </li>
-  {{ end }}
-  {{ end }}
-</ul>
+<!-- <ul class="ingredients">
+     {{ range split .Inner "\n" }}
+     {{ if strings.ContainsNonSpace .}}
+     <li class="ingredient">
+     {{ . | markdownify}}
+     </li>
+     {{ end }}
+     {{ end }}
+     </ul>
+
+-->
+
+{{ .Inner | markdownify}}

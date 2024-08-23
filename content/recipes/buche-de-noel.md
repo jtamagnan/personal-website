@@ -8,12 +8,10 @@ toc: true
 
 ## Sponge:
 ### Ingredients:
-{{% ingredients %}}
-{{% scalee 4 %}} eggs
-{{% scalee 0.5 %}} cup flour
-{{% scalee 0.5 %}} cup sugar
-{{% scalee 1 %}} Splash vanilla
-{{% /ingredients %}}
+* {{% scalee 4 %}} eggs
+* {{% scalee 0.5 %}} cup flour
+* {{% scalee 0.5 %}} cup sugar
+* {{% scalee 1 %}} Splash vanilla
 
 ### Recipe:
  1. {{% scalee 2 %}} eggs + {{% scalee 2 %}} yolks beat until light & fluffy with {{% scalee 0.375 %}} cup sugar
@@ -30,10 +28,8 @@ toc: true
 
 ## Ganache:
 ### Ingredients:
-{{% ingredients %}}
-{{% scalee 12 %}} oz chocolate
-{{% scalee 4 %}} cups cream
-{{% /ingredients %}}
+* {{% scalee 12 %}} oz chocolate
+* {{% scalee 4 %}} cups cream
 
 ### Recipe:
  1. Make ganache with {{% scalee 1.5 %}} cups cream and {{% scalee 12 %}}
@@ -48,10 +44,8 @@ toc: true
 
 ## Orange Syrup:
 ### Ingredients:
-{{% ingredients %}}
-{{% scalee 4 %}} Cups of orange juice
-{{% scalee 0.5 %}} Cups of sugar
-{{% /ingredients %}}
+* {{% scalee 4 %}} Cups of orange juice
+* {{% scalee 0.5 %}} Cups of sugar
 
 ### Recipe:
  1. {{% scalee 4 %}} cups orange juice & {{% scalee 0.5 %}} cup sugar
@@ -62,10 +56,8 @@ toc: true
 
 ## Coffee Syrup:
 ### Ingredients:
-{{% ingredients %}}
-Enough instant coffee
-{{% scalee 0.5 %}} cup sugar
-{{% /ingredients %}}
+* Enough instant coffee
+* {{% scalee 0.5 %}} cup sugar
 
 ### Recipe:
  1. {{% scalee 4 %}} cups water + {{% scalee 0.5 %}} cup sugar &
