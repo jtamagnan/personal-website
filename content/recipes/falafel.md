@@ -9,6 +9,8 @@ Makes {{% scalee 30 %}} - {{% scalee 34 %}} falafel balls
 
 Based off of https://toriavey.com/falafel/
 
+TODO(jat): Clean up and remove "optional content"
+
 ## Ingredients:
 * {{% scalee 1 %}} lb **DRY** chickpeas - you must start with dry, do
   NOT substitute canned, they will not work!
@@ -75,7 +77,8 @@ the two prior to blending.
    "right."
 
    Meanwhile, form falafel mixture into round balls or slider-shaped
-   patties using wet hands or a falafel scoop. I usually make the balls a bit smaller than golf ball size. The balls will stick
+   patties using wet hands or a falafel scoop. I usually make the
+   balls a bit smaller than golf ball size. The balls will stick
    together loosely at first, but will bind nicely once they begin to
    fry.
 
