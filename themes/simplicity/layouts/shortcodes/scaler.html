@@ -37,12 +37,29 @@
    });
  }
 
- document.addEventListener("DOMContentLoaded", function(){
+ function temperature() {
+   let elems = [...document.querySelectorAll('.temperaturee')];
+   let unit = document.querySelector('#temperature-input').value;
+   elems.forEach( elem => {
+     let defaultValue = elem.getAttribute("data-default");
+     let degrees;
+     if (unit == "F") {
+       degrees = defaultValue;
+     } else {
+       degrees = Math.round(((defaultValue - 32) / 1.8) / 5) * 5;
+     }
+     elem.innerHTML = `${degrees}°${unit}`;
+   });
+ }
+
+ document.addEventListener("DOMContentLoaded", function() {
    scale();
+   temperature();
  });
 </script>
 
 <div class="oneline">
+  {{ if (or (not .IsNamedParams) (not (isset .Params "sizing")) (ne (.Get "sizing") false)) }}
   <label for="scale-input">Quantity:</label>
   <input
     class="label-inline"
@@ -55,6 +72,21 @@
     onpaste    = "this.onchange();"
     oninput    = "this.onchange();"
   />
+  {{ end }}
+
+  {{ if (eq (.Get "temperature") true) }}
+  <label for="temperature-input">Temperature:</label>
+  <select
+    id="temperature-input"
+    onchange   = "temperature();"
+    onkeypress = "this.onchange();"
+    onpaste    = "this.onchange();"
+    oninput    = "this.onchange();"
+  >
+    <option value="F">°F</option>
+    <option value="C">°C</option>
+  </select>
+  {{ end }}
 </div>
 
 <br>

@@ -3,7 +3,7 @@ title: Falafel
 date: Fri Aug 16 20:36:52 2024
 toc: true
 ---
-{{< scaler >}}
+{{< scaler temperature=true >}}
 
 Makes {{% scalee 30 %}} - {{% scalee 34 %}} falafel balls
 
@@ -68,10 +68,11 @@ the two prior to blending.
    Fill a skillet with oil to a depth of 1 ½ inches. Use cooking oil
    with a high smoke point (oil suggestions can be found in the
    ingredient list). Heat the oil slowly over medium heat. The ideal
-   temperature to fry falafel is between 360 and 375 degrees F; the
-   best way to monitor the temperature is to use a deep fry or candy
-   thermometer. After making these a few times, you will start to get
-   a feel for when the oil temperature is "right."
+   temperature to fry falafel is between {{% temperaturee 360 %}} and
+   {{% temperaturee 375 %}}; the best way to monitor the temperature
+   is to use a deep fry or candy thermometer. After making these a few
+   times, you will start to get a feel for when the oil temperature is
+   "right."
 
    Meanwhile, form falafel mixture into round balls or slider-shaped
    patties using wet hands or a falafel scoop. I usually make the balls a bit smaller than golf ball size. The balls will stick

@@ -60,3 +60,11 @@ body {
 .scalee {
     color: $color-bara-orange;
 }
+
+.temperaturee {
+    color: $color-bara-orange;
+}
+
+.oneline label:not(:first-child) {
+    margin-left: 1em;
+}

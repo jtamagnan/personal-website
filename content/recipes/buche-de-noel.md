@@ -4,7 +4,7 @@ date: Fri Aug 16 07:40:32 2024
 toc: true
 ---
 
-{{< scaler >}}
+{{< scaler temperature=true >}}
 
 ## Sponge:
 ### Ingredients:
@@ -19,7 +19,7 @@ toc: true
  2. Beat remaining {{% scalee 2 %}} egg whites with remaining sugar until stuff peaks
  3. Fold flour into egg yolk mixture
  4. Fold egg whites in
- 5. Bake at 410F for 7 mins
+ 5. Bake at {{% temperaturee 410 %}} for 7 mins
  6. Turn out onto moist towel
  7. Apply syrup if desired
  8. Let cool completely
