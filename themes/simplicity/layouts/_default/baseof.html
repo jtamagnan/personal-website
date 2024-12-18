@@ -17,9 +17,10 @@
     <!-- JS -->
     {{ $baguetteBox := resources.Get "/src/scripts/_external/baguetteBox.js" }}
     {{ $headroom := resources.Get "/src/scripts/_external/headroom.js" }}
+    {{ $copybutton := resources.Get "/src/scripts/_external/copybutton.js" }}
     {{ $lazyload := resources.Get "/src/scripts/_external/lazyload.js" }}
     {{ $main := resources.Get "/src/scripts/main.js" }}
-    {{ $scripts := slice $baguetteBox $headroom $lazyload $main | resources.Concat "assets/js/scripts.js" | resources.Minify }}
+    {{ $scripts := slice $copybutton $baguetteBox $headroom $lazyload $main | resources.Concat "assets/js/scripts.js" | resources.Minify }}
     <script async defer src="{{ $scripts.RelPermalink }}"></script>
     <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
   </body>

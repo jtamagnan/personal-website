@@ -3,8 +3,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en-us"
 pygmentsCodeFences = true
-pygmentsStyle = "native"
-pygmentsUseClasses =  true
+pygmentsStyle = "monokai"
+pygmentsuseclasses = false
 theme = "simplicity"
 title = "Jules Tamagnan"
 [author]
