@@ -14,14 +14,16 @@
   {{ range .Pages }}
   <li>
     <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-    <a href="{{ .RelPermalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
+    <a href="{{ .RelPermalink | relURL }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a>
+
     {{ if .Params.tags }}
-    -
+    <br>
     {{ range $index, $tag := .Params.tags }}
-    <a href="{{ $.Site.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}">
+    <a href="{{ $.Site.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">
       <span>#</span>{{- . -}}
     </a>
     {{ end }}
+
     {{ end }}
   </li>
   {{ end }}
