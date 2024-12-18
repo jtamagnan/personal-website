@@ -6,7 +6,7 @@ tags: ["Advent of Code"]
 ---
 
 ## Part 1
-```
+```python
 from __future__ import annotations
 
 import typing
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 ```
 
 ## Part 2
-```
+```python
 from __future__ import annotations
 
 import typing
