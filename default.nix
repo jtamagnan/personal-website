@@ -3,5 +3,6 @@
   pkgs.mkShell {
     packages = [
       pkgs.hugo
+      pkgs.netlify-cli
     ];
 }
