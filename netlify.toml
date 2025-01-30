@@ -28,3 +28,19 @@ HUGO_VERSION = "0.68.3"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/resume/*"
+to = "/Tamagnan_Jules_resume.pdf"
+status = 301
+force = true
+
+[[redirects]]
+from = "/github/*"
+to = "https://github.com/jtamagnan"
+status = 301
+
+[[redirects]]
+from = "/linkedin/*"
+to = "https://linkedin.com/in/jtamagnan"
+status = 301
