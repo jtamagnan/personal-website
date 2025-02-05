@@ -4,7 +4,7 @@ language: en
 slug: /
 ---
 
-# Jules Tamagnan
+# {{% param Author.name %}}
 
 Software, Tooling, and DevOps Engineer
 
