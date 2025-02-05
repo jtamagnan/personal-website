@@ -18,7 +18,19 @@ all development packages installed.
 
 ## Testing
 
-To test the website simply run:
+> !NOTE if using the `Site Generation` test certain features that are
+> enabled by netlify will not work properly. Notably redirects such as
+> `jtamagnan.com/github` will not work and redirect to
+> `github.com/jtamagnan`.
+
+### Full Test
+To test the website fully as Netlify would run it use:
+```
+$ netlify dev -d public
+```
+
+### Site generation
+To test only the site generation component simply run:
 ```
 $ hugo serve
 ```
