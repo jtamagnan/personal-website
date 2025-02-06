@@ -58,8 +58,8 @@
  });
 </script>
 
+{{ if (or (not .IsNamedParams) (not (isset .Params "sizing")) (ne (.Get "sizing") false)) }}
 <div class="oneline">
-  {{ if (or (not .IsNamedParams) (not (isset .Params "sizing")) (ne (.Get "sizing") false)) }}
   <label for="scale-input">Quantity:</label>
   <input
     class="label-inline"
@@ -72,9 +72,11 @@
     onpaste    = "this.onchange();"
     oninput    = "this.onchange();"
   />
-  {{ end }}
+</div>
+{{ end }}
 
-  {{ if (eq (.Get "temperature") true) }}
+{{ if (eq (.Get "temperature") true) }}
+<div class="oneline">
   <label for="temperature-input">Temperature:</label>
   <select
     id="temperature-input"
@@ -86,7 +88,7 @@
     <option value="F">°F</option>
     <option value="C">°C</option>
   </select>
-  {{ end }}
 </div>
+{{ end }}
 
 <br>
