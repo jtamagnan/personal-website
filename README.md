@@ -26,7 +26,7 @@ all development packages installed.
 ### Full Test
 To test the website fully as Netlify would run it use:
 ```
-$ netlify dev -d public
+$ netlify dev
 ```
 
 ### Site generation
