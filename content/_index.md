@@ -6,7 +6,7 @@ slug: /
 
 # {{% param Author.name %}}
 
-Software, Tooling, and DevOps Engineer
+Software, Tooling, and Infrastructure Engineer
 
 <span class="icon-span">
   <a title="LinkedIn" href="/linkedin"> <img class="icon" src="/linkedin.png" /> </a>
