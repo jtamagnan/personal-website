@@ -6,18 +6,23 @@ toc: true
 {{< scaler temperature=true >}}
 
 ## Ingredients:
-* {{% scalee 1 %}} Stick unsalted butter
-* {{% scalee 0.75 %}} cup sugar
+* {{% scalee 1 %}} stick butter
+* {{% scalee 0.5 %}} cup sugar
 * {{% scalee 3 %}} eggs
-* {{% scalee 1 %}} Tablespoon of vanilla extract
-* {{% scalee 1 %}} Pinch of salt
-* {{% scalee 1 %}} teaspoon baking powder
+* {{% scalee 3 %}} - {{% scalee 5 %}} bananas
+* {{% scalee 1.5 %}} cups flour
 * {{% scalee 1 %}} teaspoon baking soda
-* {{% scalee 1.25 %}} cup of flour
-* {{% scalee 0.75 %}} Cups of chocolate chips
-* {{% scalee 2 %}}-{{% scalee 3 %}} ripe bananas
+* {{% scalee 0.5 %}} teaspoon salt
+* {{% scalee 1 %}} teaspoon vanilla extract
 
 ## Recipe:
-1. 1 hour at {{% temperaturee 350 %}}
-2. 10 minute at {{% temperaturee 325 %}}
-3. TODO(jat): Fill in
+1. Preheat oven to {{% temperaturee 350 %}}
+2. Butter loaf pan
+2. Crush bananas using fork
+3. Cream butter and sugar in mixer
+4. Add crushed bananas to mixture. Mix until combined on low
+5. Beat eggs separely
+5. Add eggs to mixture. Mix until combined on low
+6. Add flour, baking soda, and salt. Mix until smooth, **don’t over-mix**
+7. Add vanilla and mix until incorporated
+8. Bake for about 50 minutes but check at 45.
