@@ -16,6 +16,12 @@ https://nixos.org/download/
 Once this is installed you can run `nix develop` to enter a shell with
 all development packages installed.
 
+### Direnv
+To use Nix and direnv together just add a `./.envrc` file with:
+```
+use flake
+```
+
 ## Testing
 
 > !NOTE if using the `Site Generation` test certain features that are
