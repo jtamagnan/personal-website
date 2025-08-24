@@ -1,6 +1,6 @@
 ---
 title: Chocolate Chip Cookies
-date: Sat Aug 24 2024
+date: Sun Aug 24 11:06:42 2025
 toc: true
 ---
 {{< scaler temperature=true >}}

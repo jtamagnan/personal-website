@@ -1,6 +1,6 @@
 ---
 title: Scones
-date: Sat Aug 24 2024
+date: Sun Aug 24 11:06:52 2025
 toc: true
 ---
 {{< scaler temperature=true >}}
