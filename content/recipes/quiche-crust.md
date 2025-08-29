@@ -9,7 +9,7 @@ toc: true
 * {{% scalee 3 %}} tablespoons ice water
 * {{% scalee 1.25 %}} cups all-purpose flour
 * {{% scalee 0.5 %}} teaspoon sea salt
-* {{% scalee 7 %}} tablespoons unsalted cold butter, sliced into small cubes
+* {{% scalee 8 %}} tablespoons unsalted cold butter, sliced into small cubes
 
 ## Recipe:
 1. Place flour, salt and butter in a food processor.
